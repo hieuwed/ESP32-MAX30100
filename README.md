@@ -1,7 +1,8 @@
 # 1. Giới thiệu
-
+- Sử dụng ESP32 và MAX30100 để đo nhịp tim và nồng độ oxy trong máu
+- Hiển thị kết quả đo được trên màn hình OLED 1.3"
 # 2. Hướng dẫn sử dụng
-## a. Kết nối các linh kiện theo sơ đồ sau:
+## a. Kết nối các linh kiện như sau:
 
 
 ## b. Nạp code vào ESP32:
@@ -35,18 +36,26 @@
 
 # 4. Sơ đồ nguyên lý:
 
+![image](https://github.com/hieuwed/ESP32-MAX30100/assets/130844328/8ae57c79-c350-4fb2-8f32-922811f73619)
 
 
 # 5. Thiết kế phần mềm:
-
+- Đọc dữ liệu từ cảm biến MAX30100:
+  - ESP32 sử dụng giao tiếp I2C để lấy dữ liệu từ cảm biến MAX30100.
+  - Sử dụng thư viện MAX30100lib để dễ dàng đọc nhịp tim và nồng độ oxy.
+  
+- Hiển thị dữ liệu lên màn hình OLED:
+  - Sử dụng giao tiếp I2C để gửi dữ liệu từ ESP32 đến màn hình OLED 1.3 inch.
+  - Sử dụng thư viện Adafruit_SSD1306 và Adafruit_GFX để hiển thị dữ liệu nhịp tim và nồng độ oxy dưới dạng văn bản và đồ họa.
 
 # 6. Tác giả
 
 | Sv thực hiện | MSSV | Github |
 |--------------|------|---------------------|
-|Vũ Minh Hiếu|20215579|      |
+|Vũ Minh Hiếu|20215579|[Here](https://github.com/hieuwed)|
 |            |        |      |
 |            |        |      |
 |            |        |      |
+
 
 
