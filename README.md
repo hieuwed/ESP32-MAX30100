@@ -16,7 +16,7 @@
 - Cấp nguồn cho ESP32 thông qua dây cáp.
 - Đặt ngón tay lên cảm biến MAX30100 và quan sát kết quả trên màn hình OLED.
 - Kết quả bao gồm nhịp tim (bpm) và nồng độ oxy trong máu (%SpO2).
-- Link video hướng dẫn:
+- Link video hướng dẫn: [Video hướng dẫn](https://www.youtube.com/watch?v=8mRIQhtyXns)
 
 # 3.Danh sách linh kiện:
 
